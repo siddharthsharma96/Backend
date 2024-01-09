@@ -54,10 +54,11 @@ app.post("/Expense", async (req, res) => {
   try {
     let { date, type, desc, currency, title } = req.body;
     console.log(date, type, desc, currency, title);
-    const maxid = details[details.length - 1];
+    // const maxid = details[details.length - 1];
+    const maxId = Math.max(...details.map((expense) => expense.id), 0);
     console.log(maxid.id);
     const newExpense = {
-      id: maxid + 1,
+      id: maxId + 1,
       date,
       type,
       desc,
