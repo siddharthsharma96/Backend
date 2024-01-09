@@ -1,0 +1,22 @@
+{
+  "name": "backend_part",
+  "version": "1.0.0",
+  "description": "Here we are using node and express just to create the api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthsharma96/Backend.git"
+  },
+  "author": "SiddharthSharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharthsharma96/Backend/issues"
+  },
+  "homepage": "https://github.com/siddharthsharma96/Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
